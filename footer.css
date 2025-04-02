@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-around;
+    background: green;
+    color: white;
+    padding: 10px;
+}
+.flex-footer div {
+    flex: 1;
+    padding: 10px;
+}
+.flex-footer a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.flex-footer a:hover {
+    text-decoration: underline;
+}
+.af{
+color: aqua;
+font-size: 20px;
+
+}
+.af a:hover{
+    color: blueviolet;
+    .facebook a :hover{
+        color: blue;
+    }
+}
+.youtube a:hover{
+    color: red;
+}
